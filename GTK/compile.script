@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -Wno-format -o INTERFACE_bin INTERFACE.c -Wno-deprecated-declarations -Wno-format-security -lm `pkg-config --cflags --libs gtk+-3.0` -export-dynamic 
